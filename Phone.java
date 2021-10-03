@@ -15,10 +15,10 @@ public class Phone {
     public Phone (){
     }
     public void receiveCall(String name){
-        System.out.println("Звонит " + name);
+        System.out.println("Р—РІРѕРЅРёС‚ " + name);
     }
     public void receiveCall(String name, String number){
-        System.out.println("Звонит " + name + " " + number);
+        System.out.println("Р—РІРѕРЅРёС‚ " + name + " " + number);
     }
     public String getNumber(){
         return number;
