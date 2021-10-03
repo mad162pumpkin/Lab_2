@@ -9,15 +9,15 @@ public class Z3 {
         for(Phone p:phones){
             System.out.println("Model: " + p.model + "\nNumber: " + p.number + "\nWeight: " + p.weight + "\n");
         }
-        phone1.receiveCall("Аня");
-        phone2.receiveCall("Кирилл");
-        phone3.receiveCall("Егор\n");
+        phone1.receiveCall("РђРЅСЏ");
+        phone2.receiveCall("РљРёСЂРёР»Р»");
+        phone3.receiveCall("Р•РіРѕСЂ\n");
         for(Phone p:phones){
             System.out.println(p.getNumber());
         }
-        phone1.receiveCall("Аня", "+7 (985) 312-76-51");
-        phone2.receiveCall("Кирилл", "+7 (915) 999-35-53");
-        phone3.receiveCall("Егор", "+7 (977) 256-12-82\n");
+        phone1.receiveCall("РђРЅСЏ", "+7 (985) 312-76-51");
+        phone2.receiveCall("РљРёСЂРёР»Р»", "+7 (915) 999-35-53");
+        phone3.receiveCall("Р•РіРѕСЂ", "+7 (977) 256-12-82\n");
 
         Phone.sendMessage("Hello, World!", "+7 (985) 312-76-51", "+7 (915) 999-35-53", "+7 (977) 256-12-82");
     }
