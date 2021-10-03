@@ -4,45 +4,6 @@ public class Animal {
     public Animal(String food, String location){
         this.food=food;
         this.location=location;
-        animalType="Æèâîòíîå";
-    }
-    String food;
-    String location;
-    String animalType;
-
-    public String makeNoise(){
-        if (isSleep) {
-            return animalType + " ñïèò";
-        }
-        else{
-            return animalType +" èçäàåò çâóêè";
-        }
-    }
-    public String eat(){
-        if (isSleep) {
-            return animalType + " ñïèò";
-        }
-        else{
-            return animalType + " åñò " + food;
-        }
-    }
-    public String sleep(){
-        isSleep=true;
-        return animalType + " ñïèò";
-    }
-    public String unSleep(){
-        isSleep=false;
-        return animalType + " ïðîñíóëîñü";
-    }
-    boolean isSleep=false;
-
-
-}package lab_2;
-
-public class Animal {
-    public Animal(String food, String location){
-        this.food=food;
-        this.location=location;
         animalType="Животное";
     }
     String food;
